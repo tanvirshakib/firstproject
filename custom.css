@@ -1,0 +1,83 @@
+body{
+font-family: 'Rancho', cursive;
+}
+
+.from_code{
+  text-align: center;
+}
+
+.image-responsive{
+max-width: 100%;
+}
+.imageb{
+background: url(imageb.jpg) no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+height: 100vh;
+position:relative;
+}
+.hero_wrapper{
+color:black;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.hero_wrapper h1{
+font-size: 3rem;
+text-align: center;
+}
+
+
+
+.from_code .post_code{
+text-align: center;
+display: block;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 2rem;
+padding: .6rem;
+border: none;
+outline: none;
+}
+
+.from_code button {
+width: 40%;
+text-align: center;
+background-color: #00bab1;
+color: white;
+padding: .6rem;
+margin: 1rem auto 0rem;
+border: none;
+border-radius: .3rem;
+
+}
+
+
+.shakib {
+width: 90%;
+margin-top: 1rem;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.details {
+float: left;
+width: 32%;
+margin-left: 0.5rem;
+
+}
+.details:first-of-type {
+
+margin-left: 0;
+
+}
+
+@media screen and (max-width:700px){
+.details{
+width:100%;
+float:none;
+}
+}
